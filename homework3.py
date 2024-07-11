@@ -1,9 +1,9 @@
 # Динамическая типизация
 name = "Grigoriy"
-print ('Name:',name)
+print('Name:', name)
 age = 45
-print ('Age:',age)
+print('Age:', age)
 age = age + 3
-print ('New age:',age)
+print('New age:', age)
 is_student = True
-print ('Is Student:',is_student)
+print('Is Student:', is_student)
