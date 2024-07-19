@@ -9,7 +9,7 @@ my_list_length = len(my_list)
 print(f'В заданом списке {my_list_length} чисел.')
 print('В заданом списке следующие положительные числа:')
 while i <= my_list_length - 1:
-    if my_list[i] >= 0:
+    if my_list[i] > 0:    # Поправил условие
         print(my_list[i])
         if i == my_list_length - 1:
             print('Выведены все числа списка.')
