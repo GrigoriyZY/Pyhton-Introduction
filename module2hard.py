@@ -20,7 +20,7 @@ while repeat:
         print('Вы ввели неверное число. Число должно быть в диапазоне от 3 до 20.')
         continue
     result = password(n)
-    print(f'Пароль для введенного числа {n} следующий:{result}')
+    print(f'Пароль для введенного числа {n} следующий:', *result)
     reply = str(input('Хотите повторить7 (Да / Нет) '))
     if reply == 'Да':
         continue
